@@ -1,4 +1,4 @@
-# mean-signup
+# mean-signup-signin
 MEAN app for Sign-up and Sign-in functionality
 
 # Installation steps
