@@ -1,0 +1,15 @@
+.mgn-l-15{
+	margin-left: 15px;
+}
+
+.logout-align{
+	float: right;
+    margin-top: -35px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.welcome-user{
+	display:inline;
+	color: #337ab7;
+}

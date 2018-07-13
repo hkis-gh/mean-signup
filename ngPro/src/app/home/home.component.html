@@ -1,0 +1,12 @@
+<h3>Welcome <h4 *ngIf="username" class="welcome-user"> , {{username}}</h4></h3>
+<h5 *ngIf="!username">Click here to  <a [routerLink]="['/login']">Login</a></h5>
+<h5 *ngIf="username" class="logout-align"><a (click)="logout()">Logout</a></h5>
+
+<div *ngIf="username">
+  <h1>Registerd Users : </h1>
+  <div *ngFor="let user of users">
+    <h3 *ngIf="user.firstname" class="mgn-l-15">
+      - {{user.firstname}} {{user.lastname}}
+    </h3>
+  </div>
+</div>
